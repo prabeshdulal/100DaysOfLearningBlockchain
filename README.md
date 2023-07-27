@@ -60,6 +60,7 @@ Bitcoin is based on blockchain technology and is the first major application of 
 ### What I learned from this research paper?
 1. Need for digital decentralized currency
 2. Transactions in Bitcoin
+   ![Screenshot 2023-07-27 210533](https://github.com/prabeshdulal/100DaysOfLearningBlockchain/assets/138851338/56f3e888-da59-46c7-b258-c9048f46445b)
 1. pear-to-pear distribution network
 4. Proof-of-Work 
 5. what bitcoin mining actually is.
