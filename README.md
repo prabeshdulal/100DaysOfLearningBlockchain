@@ -51,20 +51,40 @@ There is a fixed supply of Bitcoin, capped at 21 million coins. This scarcity is
  Bitcoin's price can be highly volatile, experiencing significant fluctuations in short periods. This volatility has attracted both investors and speculators to the market.
 
 
+
+
 ## Day-2
 Today I read the research paper published by Satoshi Nakamoto  titled "Bitcoin: A Peer-to-Peer Electronic Cash System," which outlined the concept of a decentralized digital currency that could operate without the need for a central authority like a bank.
 
-### Need of learning Bitcoin to understand Blockchain
-Bitcoin is based on blockchain technology and is the first major application of Blockchain so if you understand the fundamental of Bitcoin you will have a basic fundamental background in blockchain technology.
+### Need of learning bitcoin to understand Blockchain
+bitcoin is based in the blockchain technology and first major application of Blockchain so if you understand the fundamental of bitcoin you will have basic fundamental background in blockchain technology.
 
-### What I learned from this research paper?
-1. Need for digital decentralized currency
-2. Transactions in Bitcoin
-   ![Screenshot 2023-07-27 210533](https://github.com/prabeshdulal/100DaysOfLearningBlockchain/assets/138851338/56f3e888-da59-46c7-b258-c9048f46445b)
+### What i learned from this research paper?
+1. Need of digital decentralized currency
+2. Transactions in bitcoin
 1. pear-to-pear distribution network
 4. Proof-of-Work 
 5. what bitcoin mining actually is.
+### Summary
 
-##
-Here I have uploaded a PDF of that research paper 
-[bitcoin.pdf](https://github.com/prabeshdulal/100DaysOfLearningBlockchain/files/12185077/bitcoin.pdf)
+Summary of the research paper "Bitcoin: A Peer-to-Peer Electronic Cash System" by Satoshi Nakamoto:
+
+The research paper "Bitcoin: A Peer-to-Peer Electronic Cash System" published by Satoshi Nakamoto introduces the concept of a decentralized digital currency known as Bitcoin. The paper was released in 2008 and became the foundation for the creation of the first cryptocurrency, Bitcoin.
+
+The main purpose of Bitcoin is to enable secure and direct transactions between individuals without the need for intermediaries like banks. It addresses the issue of trust and reliance on centralized institutions by proposing a peer-to-peer electronic cash system that operates on a decentralized network.
+
+The paper highlights the need for a digital decentralized currency as a solution to the double-spending problem that existed in previous attempts to create digital money without a central authority. By using cryptographic techniques, the system ensures that each unit of currency can only be spent once, preventing fraudulent activities.
+
+The core components of Bitcoin's operation outlined in the paper are as follows:
+
+1. Transactions in Bitcoin: The paper describes how transactions are conducted on the Bitcoin network. Each transaction is a transfer of value between Bitcoin addresses, and these transactions are publicly recorded on the blockchain.
+
+
+2. Peer-to-Peer Distribution Network: Bitcoin's network operates in a peer-to-peer manner, where nodes (computers) in the network connect and communicate with each other directly, without relying on a centralized server.
+
+3. Proof-of-Work: Bitcoin uses a Proof-of-Work (PoW) consensus mechanism to validate and secure transactions. Miners compete to solve complex mathematical puzzles, and the first one to solve it gets the right to add a new block of transactions to the blockchain. This process ensures the integrity of the network.
+
+4. Bitcoin Mining: The paper introduces the concept of Bitcoin mining, which is the process by which new bitcoins are created and transactions are verified and added to the blockchain. Miners are incentivized through block rewards and transaction fees.
+
+Overall, this seminal research paper lays the foundation for the development of Bitcoin as the first major application of blockchain technology. Understanding the fundamental concepts outlined in this paper provides a solid background for comprehending the broader implications and applications of blockchain technology beyond just cryptocurrencies.
+
