@@ -66,3 +66,4 @@ Bitcoin is based on blockchain technology and is the first major application of 
 
 ##
 Here I have uploaded a PDF of that research paper 
+[bitcoin.pdf](https://github.com/prabeshdulal/100DaysOfLearningBlockchain/files/12185077/bitcoin.pdf)
