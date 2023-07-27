@@ -56,12 +56,12 @@ There is a fixed supply of Bitcoin, capped at 21 million coins. This scarcity is
 ## Day-2
 Today I read the research paper published by Satoshi Nakamoto  titled "Bitcoin: A Peer-to-Peer Electronic Cash System," which outlined the concept of a decentralized digital currency that could operate without the need for a central authority like a bank.
 
-### Need of learning bitcoin to understand Blockchain
-bitcoin is based in the blockchain technology and first major application of Blockchain so if you understand the fundamental of bitcoin you will have basic fundamental background in blockchain technology.
+### Need of learning Bitcoin to understand Blockchain
+bitcoin is based on blockchain technology and the first major application of Blockchain so if you understand the fundamental of Bitcoin you will have a basic fundamental background in blockchain technology.
 
-### What i learned from this research paper?
-1. Need of digital decentralized currency
-2. Transactions in bitcoin
+### What I learned from this research paper?
+1. Need for digital decentralized currency
+2. Transactions in Bitcoin
 1. pear-to-pear distribution network
 4. Proof-of-Work 
 5. what bitcoin mining actually is.
@@ -83,6 +83,7 @@ The core components of Bitcoin's operation outlined in the paper are as follows:
 2. Peer-to-Peer Distribution Network: Bitcoin's network operates in a peer-to-peer manner, where nodes (computers) in the network connect and communicate with each other directly, without relying on a centralized server.
 
 3. Proof-of-Work: Bitcoin uses a Proof-of-Work (PoW) consensus mechanism to validate and secure transactions. Miners compete to solve complex mathematical puzzles, and the first one to solve it gets the right to add a new block of transactions to the blockchain. This process ensures the integrity of the network.
+![Screenshot 2023-07-27 211117](https://github.com/prabeshdulal/100DaysOfLearningBlockchain/assets/138851338/335542d9-7c6e-4684-aacc-55ee8a3e10f8)
 
 4. Bitcoin Mining: The paper introduces the concept of Bitcoin mining, which is the process by which new bitcoins are created and transactions are verified and added to the blockchain. Miners are incentivized through block rewards and transaction fees.
 
