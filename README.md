@@ -49,3 +49,20 @@ There is a fixed supply of Bitcoin, capped at 21 million coins. This scarcity is
 
 ### Volatility:
  Bitcoin's price can be highly volatile, experiencing significant fluctuations in short periods. This volatility has attracted both investors and speculators to the market.
+
+
+## Day-2
+Today I read the research paper published by Satoshi Nakamoto  titled "Bitcoin: A Peer-to-Peer Electronic Cash System," which outlined the concept of a decentralized digital currency that could operate without the need for a central authority like a bank.
+
+### Need of learning Bitcoin to understand Blockchain
+Bitcoin is based on blockchain technology and is the first major application of Blockchain so if you understand the fundamental of Bitcoin you will have a basic fundamental background in blockchain technology.
+
+### What I learned from this research paper?
+1. Need for digital decentralized currency
+2. Transactions in Bitcoin
+1. pear-to-pear distribution network
+4. Proof-of-Work 
+5. what bitcoin mining actually is.
+
+##
+Here I have uploaded a PDF of that research paper 
