@@ -90,3 +90,33 @@ The core components of Bitcoin's operation outlined in the paper are as follows:
 
 Overall, this seminal research paper lays the foundation for the development of Bitcoin as the first major application of blockchain technology. Understanding the fundamental concepts outlined in this paper provides a solid background for comprehending the broader implications and applications of blockchain technology beyond just cryptocurrencies.
 
+
+
+# Day 3
+
+
+### Blockchain Artitecture
+generally, we understand blockchain as the distributed, decentralized, immutable ledger. Before understanding the whole architecture lets understand the block first. 
+### Block
+A block in the blockchain is nothing but a ledger. Each block has the following properties.
+
+- Index
+- Timestamp
+- Previous Hash
+- Hash
+- Data
+
+The structure of a Blockchain. A block is composed of a header and a body, where a header contains the hash of previous block, a timestamp, Nonce and the Merkle root. The Merkle root is the root hash of a Merkle tree which is stored in the block body. We denote a transaction as TX and take the 3-th block, which only contains four transactions, as an example to illustrate the structure of a Merkle tree
+
+The whole family of blocks is the Blockchain. Blockchain is a distributed ledger, which simply means that a ledger is spread across the network among all peers (nodes) in the network. Every node has a copy of the Blockchain. Once a block reaches a certain number of approved transactions then a new block is formed.
+
+### Cryptographic Hashing:
+
+Blockchain uses cryptographic hash functions to create unique digital signatures for each block. A hash function takes an input (data within the block) and produces a fixed-size alphanumeric string (the hash). Any change to the input data will result in a completely different hash, ensuring that the data remains tamper-proof and maintaining the chain's integrity.
+
+### Digital signature
+To carry out a transaction you need two things: a wallet, which is basically an address, and a private key. The private key is a string of random numbers, but unlike the address the private key must be kept secret.
+
+When someone decides to send coins to anyone else they must sign the message containing the transaction with their private key. The system of two keys is at the heart of encryption and cryptography, and its use long predates the existence of Blockchain. It was first proposed in the 1970s.
+
+Once the message is sent it is broadcast to the Blockchain network. The network of nodes then works on the message to make sure that the transaction it contains is valid. If it confirms the validity, the transaction is placed in a block and after that no information about it can be changed.
