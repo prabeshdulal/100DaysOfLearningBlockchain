@@ -116,6 +116,7 @@ The whole family of blocks is the Blockchain. Blockchain is a distributed ledger
 ### Cryptographic Hashing:
 
 Blockchain uses cryptographic hash functions to create unique digital signatures for each block. A hash function takes an input (data within the block) and produces a fixed-size alphanumeric string (the hash). Any change to the input data will result in a completely different hash, ensuring that the data remains tamper-proof and maintaining the chain's integrity.
+![Screenshot 2023-07-28 194959](https://github.com/prabeshdulal/100DaysOfLearningBlockchain/assets/138851338/9d0a6b10-4cb7-436a-8360-eb43da1df738)
 
 ### Digital signature
 To carry out a transaction you need two things: a wallet, which is basically an address, and a private key. The private key is a string of random numbers, but unlike the address the private key must be kept secret.
