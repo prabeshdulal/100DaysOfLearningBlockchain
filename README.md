@@ -124,3 +124,4 @@ To carry out a transaction you need two things: a wallet, which is basically an 
 When someone decides to send coins to anyone else they must sign the message containing the transaction with their private key. The system of two keys is at the heart of encryption and cryptography, and its use long predates the existence of Blockchain. It was first proposed in the 1970s.
 
 Once the message is sent it is broadcast to the Blockchain network. The network of nodes then works on the message to make sure that the transaction it contains is valid. If it confirms the validity, the transaction is placed in a block and after that no information about it can be changed.
+![digital signature](https://blog.signaturit.com/hs-fs/hubfs/19-jun-18-twitter-blog-eng.png?width=2048&name=19-jun-18-twitter-blog-eng.png)
