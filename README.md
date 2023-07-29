@@ -106,6 +106,9 @@ A block in the blockchain is nothing but a ledger. Each block has the following 
 - Hash
 - Data
 
+![The-structure-of-a-Blockchain-A-block-is-composed-of-a-header-and-a-body-where-a-header](https://github.com/prabeshdulal/100DaysOfLearningBlockchain/assets/138851338/df02b286-6944-4abf-8762-da14432eff00)
+
+
 The structure of a Blockchain. A block is composed of a header and a body, where a header contains the hash of previous block, a timestamp, Nonce and the Merkle root. The Merkle root is the root hash of a Merkle tree which is stored in the block body. We denote a transaction as TX and take the 3-th block, which only contains four transactions, as an example to illustrate the structure of a Merkle tree
 
 The whole family of blocks is the Blockchain. Blockchain is a distributed ledger, which simply means that a ledger is spread across the network among all peers (nodes) in the network. Every node has a copy of the Blockchain. Once a block reaches a certain number of approved transactions then a new block is formed.
