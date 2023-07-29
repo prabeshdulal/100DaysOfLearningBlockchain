@@ -125,3 +125,23 @@ When someone decides to send coins to anyone else they must sign the message con
 
 Once the message is sent it is broadcast to the Blockchain network. The network of nodes then works on the message to make sure that the transaction it contains is valid. If it confirms the validity, the transaction is placed in a block and after that no information about it can be changed.
 ![digital signature](https://blog.signaturit.com/hs-fs/hubfs/19-jun-18-twitter-blog-eng.png?width=2048&name=19-jun-18-twitter-blog-eng.png)
+
+
+# Day4 
+ ### Operation in blockchain
+💡Operations in decentralized networks are the responsibility of the peer participants and their respective computational nodes. In particular, these operation includes:
+- Validation of transaction.
+- Gathering transactions for a block.
+- Broadcasting valid transactions and blocks.
+- Consensus on the next block creation.
+- Chaining blocks together to form immutable records.
+
+### In Bitcoin
+Operation in Bitcoin Blockchain includes two major participants in the Bitcoin network. The first participants are people that initiate the transfer of value by creating a transaction. The second group of participants are called miners, which provide the computational resources needed to Verify transactions, Broadcast transactions, Compete for the right to create a block, Reach consensus by validating the block, Broadcast the new block, Confirm transactions
+
+- #### structure of transactions in Bitcoin
+
+- #### Unspent Transaction Output(UTXO), 
+- #### The concept of Proof-of-Work for network consensus,
+
+🚀 continuing exploring the world of blockchain and its transformative potential!
