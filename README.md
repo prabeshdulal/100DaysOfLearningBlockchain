@@ -163,6 +163,7 @@ transaction carried out is made up of one input and two outputs.
 3. 2nd output: Is directed to a direction of change. This operation returns us the surplus of the transaction that has not been spent.
 
 Then, as the name indicates, UTXOs are the outputs of a transaction that have not been spent and that return the change that corresponds to us for an operation carried out
+![utxo](https://reddspark.files.wordpress.com/2021/07/utxo.jpg)
 
 - #### The concept of Proof-of-Work for network consensus,
 
