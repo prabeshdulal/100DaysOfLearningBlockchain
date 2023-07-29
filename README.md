@@ -149,6 +149,7 @@ Inputs: which contains
 Output: which contains
 - Value
 - ScriptPubKey
+  ![Screenshot 2023-07-30 002051](https://github.com/prabeshdulal/100DaysOfLearningBlockchain/assets/138851338/e48fae8e-c426-4630-9c6b-611c62714ca4)
 
 
 - #### Unspent Transaction Output(UTXO), 
