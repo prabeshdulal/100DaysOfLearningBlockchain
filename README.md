@@ -140,8 +140,29 @@ Once the message is sent it is broadcast to the Blockchain network. The network 
 Operation in Bitcoin Blockchain includes two major participants in the Bitcoin network. The first participants are people that initiate the transfer of value by creating a transaction. The second group of participants are called miners, which provide the computational resources needed to Verify transactions, Broadcast transactions, Compete for the right to create a block, Reach consensus by validating the block, Broadcast the new block, Confirm transactions
 
 - #### structure of transactions in Bitcoin
+Every block in the Bitcoin blockchain contains transactions made by the users. Every transaction records the transfer of Bitcoin from one entity/person to another. We can use these records to trace every Bitcoin to its point of creation. The basic structure of a Bitcoin transaction is as follows:
+
+Inputs: which contains 
+- Previous transaction id.
+- previous transaction index.
+
+Output: which contains
+- Value
+- ScriptPubKey
+
 
 - #### Unspent Transaction Output(UTXO), 
+transaction carried out is made up of one input and two outputs.
+
+1. Input: indicates the money we use to carry out a transaction.
+
+2. 1st output: Is directed to the person to whom we send the transaction and becomes their entry.
+
+3. 2nd output: Is directed to a direction of change. This operation returns us the surplus of the transaction that has not been spent.
+
+Then, as the name indicates, UTXOs are the outputs of a transaction that have not been spent and that return the change that corresponds to us for an operation carried out
+
 - #### The concept of Proof-of-Work for network consensus,
 
 🚀 continuing exploring the world of blockchain and its transformative potential!
+
