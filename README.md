@@ -138,6 +138,7 @@ Once the message is sent it is broadcast to the Blockchain network. The network 
 
 ### In Bitcoin
 Operation in Bitcoin Blockchain includes two major participants in the Bitcoin network. The first participants are people that initiate the transfer of value by creating a transaction. The second group of participants are called miners, which provide the computational resources needed to Verify transactions, Broadcast transactions, Compete for the right to create a block, Reach consensus by validating the block, Broadcast the new block, Confirm transactions
+![Screenshot 2023-07-29 163935](https://github.com/prabeshdulal/100DaysOfLearningBlockchain/assets/138851338/2dbb4f98-368b-40c7-8d5a-7a4cc6d1126c)
 
 - #### structure of transactions in Bitcoin
 Every block in the Bitcoin blockchain contains transactions made by the users. Every transaction records the transfer of Bitcoin from one entity/person to another. We can use these records to trace every Bitcoin to its point of creation. The basic structure of a Bitcoin transaction is as follows:
