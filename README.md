@@ -167,5 +167,29 @@ Then, as the name indicates, UTXOs are the outputs of a transaction that have no
 
 - #### The concept of Proof-of-Work for network consensus,
 
+
+# Day 5 
+### Beyond Bitcoin Blockchain
+Bitcoin Blockchain is considered the best example of the application of blockchain technology. We can also say that it is where the blockchain era began. 
+
+Bitcoin supports an optional and special feature called scripts for the conditional transfer of values. Ethereum Blockchain extended the scripting feature into a full-blown code execution framework called a smart contract. A smart contract provides the very powerful capability of code execution for embedding business logic on the blockchain. 
+
+Based on such capabilities, three major types of blockchains emerge from the Bitcoin foundation. 
+
+- Type one deals with the coins in the cryptocurrency currency chain. For example, Bitcoin. 
+
+- Type two supports cryptocurrency and a business logic layer supported by code execution. For example, ethereum. 
+
+- Type three involves no currency but supports software execution for business logic. For example, The Linux Foundation's Hyperledger. 
+
+### Based on the access limit Blockchain is categorized into:
+- Public :
+As we know the best example is the Bitcoin blockchain it is open source and you can also make your own coin just by modifying the code.
+- private :
+access to the blockchain is limited to selected participants, for example, those participants within an organization. This restriction helps in simplifying normal operations such as block creation and contingency models.
+- permissioned 
+also called consortium blockchain. It is meant for a consortium of collaborating parties to transact on a blockchain for ease of governance, provenance, and accountability, for example, a consortium of all automobile companies or healthcare organizations. Permissioned blockchain has the benefits of a public blockchain allowing only users with permission to collaborate and transact. 
+
+
 🚀 continuing exploring the world of blockchain and its transformative potential!
 
