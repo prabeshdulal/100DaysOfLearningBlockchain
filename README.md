@@ -184,10 +184,13 @@ Based on such capabilities, three major types of blockchains emerge from the Bit
 
 ### Based on the access limit Blockchain is categorized into:
 - Public :
+  
 As we know the best example is the Bitcoin blockchain it is open source and you can also make your own coin just by modifying the code.
 - private :
+  
 access to the blockchain is limited to selected participants, for example, those participants within an organization. This restriction helps in simplifying normal operations such as block creation and contingency models.
-- permissioned 
+- permissioned :
+  
 also called consortium blockchain. It is meant for a consortium of collaborating parties to transact on a blockchain for ease of governance, provenance, and accountability, for example, a consortium of all automobile companies or healthcare organizations. Permissioned blockchain has the benefits of a public blockchain allowing only users with permission to collaborate and transact. 
 
 
