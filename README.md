@@ -195,7 +195,7 @@ also called consortium blockchain. It is meant for a consortium of collaborating
 
 
 
-# day 5
+# day 6
 ### 🔗 Smart contract in Ethereum Blockchain 🔗
 Piece of code deployed in a Blockchain node. The execution of a smart contract is initiated by a message embedded in the transaction.
 #### What smart contract can do?
