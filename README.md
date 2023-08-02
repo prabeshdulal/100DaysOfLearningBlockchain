@@ -194,5 +194,37 @@ access to the blockchain is limited to selected participants, for example, those
 also called consortium blockchain. It is meant for a consortium of collaborating parties to transact on a blockchain for ease of governance, provenance, and accountability, for example, a consortium of all automobile companies or healthcare organizations. Permissioned blockchain has the benefits of a public blockchain allowing only users with permission to collaborate and transact. 
 
 
+
+# day 5
+### 🔗 Smart contract in Ethereum Blockchain 🔗
+Piece of code deployed in a Blockchain node. The execution of a smart contract is initiated by a message embedded in the transaction.
+#### What smart contract can do?
+Understanding with an example,
+
+suppose ram and Laxman bet 0.05 eth for the common weather condition.
+
+ Ram bet for tomorrow will be a sunny day and
+
+ Laxman bet for tomorrow will be a rainy day
+
+
+now, the smart contract is written in such a way that it will automatically check the weather condition by its own and transfer the amount to the one person who wins.
+
+logic:
+```
+if(tommorw will rain)
+
+{ if this condition meet }
+
+transfer amount to Laxman 
+
+else
+transfer amount to ram
+```
+how do smart contracts look like, how do we write a smart contract, what language we needed, code Execution (where and when),
+
+ smart contracts add a layer of logic and computation to the trust infrastructure supported by the blockchain. Smart contracts allow for the execution of code. Enhancing the basic value transfer capability of the Bitcoin blockchain. The code for the smart contracts is executed on a special structure known as Ethereum Virtual Machine.
+
+
 🚀 continuing exploring the world of blockchain and its transformative potential!
 
