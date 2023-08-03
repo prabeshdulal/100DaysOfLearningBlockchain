@@ -230,6 +230,8 @@ how do smart contracts look like, how do we write a smart contract, what languag
 
 ### Structure of Ethereum blockchain 
 is based on the Bitcoin blockchain structure with some update and addition like:
+![image](https://github.com/prabeshdulal/100DaysOfLearningBlockchain/assets/138851338/f23a2c51-aa0e-470f-8ea3-4d08cb6f9608)
+
 
 1. Gas Limit: A field that contains the maximum amount of gas that can be used by the transactions in the block. The gas limit is set by the miner who mines the block and is used to prevent the network from being overwhelmed by too many transactions.
 
