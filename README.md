@@ -225,6 +225,51 @@ how do smart contracts look like, how do we write a smart contract, what languag
 
  smart contracts add a layer of logic and computation to the trust infrastructure supported by the blockchain. Smart contracts allow for the execution of code. Enhancing the basic value transfer capability of the Bitcoin blockchain. The code for the smart contracts is executed on a special structure known as Ethereum Virtual Machine.
 
+ # Day 7
+🔗Ethereum structure, features and operations🔗
+
+### Structure of Ethereum blockchain 
+is based on the Bitcoin blockchain structure with some update and addition like:
+
+1. Gas Limit: A field that contains the maximum amount of gas that can be used by the transactions in the block. The gas limit is set by the miner who mines the block and is used to prevent the network from being overwhelmed by too many transactions.
+
+2. Gas used: A field that contains the amount of gas that was actually used by the transactions in the block.
+
+3. Block Reward: A field that contains the reward given to the miner who mined the block. This reward is a combination of the block reward, the uncle reward, and the transaction fee rewards.
+
+4. Value: The “value” field in a transaction within the Ethereum block body is used to specify the amount of Ether that is being transferred from the sender to the recipient in the transaction. It is an important field as it represents the value being transferred and it is used to calculate the total value transferred in a block.
+
+### Operations
+Unlike Bitcoin which uses UTXO for the transaction, Ethereum uses an account/balance model meaning book-keeping is on blockchain networks. account/balance model tracks the balances of each account as a global state, in this case, all values are combined on the account to show a sum total owned by the user of the account. No transactions are initiated.
+There are two types of accounts in Ethereum: 
+- Externally Owned Accounts (EOA) and
+- Contract Accounts. 
+An EOA is controlled by a private key, has no associated code, and can send transactions. A contract account has an associated code that executes when it receives a transaction from an EOA.
+
+### Transaction in Ethereum
+Assuming I have to transfer 50 Ether to the guiday, we initiate two transfers, the first to the recipient's account, and the second to a miner's account.The first transfers a value of 100 ether to the recipient's account while the second is gas fees or transaction fees sent as a reward to the miner for the creation and validation of a block in the blockchain.
+
+### Deployment and Invocation of a Smart Contract.
+The solidity code is compiled and deployed to the EVM which can host and run multiple smart contracts at once.
+
+For decentralization and immutability, all miners have to execute the same smart contract code triggered. Once a transaction is validated, it is broadcasted and gathered for later block creation and validation.
+
+### features:
+- implementation of smart contracts. Smart contracts can be thought of as ‘cryptographic bank lockers’ which contain certain values.
+
+- These cryptographic lockers can only be unlocked when certain conditions are met. 
+
+- Unlike Bitcoin, Ethereum is a network that can be applied to various other sectors. 
+
+- Ethereum is often called Blockchain 2.0 since it proved the potential of blockchain technology beyond the financial sector. 
+
+- The consensus mechanism used in Ethereum is Proof of Stakes(PoS), which is more energy efficient. 
+
+#### Source:
+https://www.geeksforgeeks.org/ethereum-block-structure/
+https://iq.opengenus.org/operations-on-ethereum-blockchain/
+
+
 
 🚀 continuing exploring the world of blockchain and its transformative potential!
 
