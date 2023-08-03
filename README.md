@@ -251,6 +251,7 @@ Assuming I have to transfer 50 Ether to the guiday, we initiate two transfers, t
 
 ### Deployment and Invocation of a Smart Contract.
 The solidity code is compiled and deployed to the EVM which can host and run multiple smart contracts at once.
+![Screenshot 2023-08-03 190639](https://github.com/prabeshdulal/100DaysOfLearningBlockchain/assets/138851338/3aba1649-c3ef-4d30-86c3-b0ad2d650e3a)
 
 For decentralization and immutability, all miners have to execute the same smart contract code triggered. Once a transaction is validated, it is broadcasted and gathered for later block creation and validation.
 
