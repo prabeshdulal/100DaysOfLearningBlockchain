@@ -281,15 +281,15 @@ Suppose, Guiday wants to send a private msg to me, and msg is so much confidenti
 
 The traditional method of doing that is using a symmetric method, in this method, we both set on the agreement that we have one key that is used for encryption and decryption of that msg. and that key should only be known to us.
 
-[Image]
+![download](https://github.com/prabeshdulal/100DaysOfLearningBlockchain/assets/138851338/55b87a55-d992-4ce3-9a20-64905214d88e)
 
 But the problem here is how can we share that key privately with each other. The only possible way is to physically share the key but it is not possible if Guiday is in the USA and I am in Nepal.
 
 solution to this problem is Using Public key Cryptography
 
 Here I will create two keys, and I will keep one key to myself privately I will call it a private key and send another key to Guiday I will call it a public key.
-
 Guiday will encrypt that msg using that public key and that msg only be decrypted using the private key which I have.
+![Asymmetric-Encryption](https://github.com/prabeshdulal/100DaysOfLearningBlockchain/assets/138851338/25935ad8-9228-45ad-b813-8ec3e71d3672)
 
 [ note: public key and private key is connected to each other in such a way that the msg encrypted from one key is only be decrypted with other key but there is no way that we can find one key using another ]
 
