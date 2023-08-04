@@ -295,12 +295,12 @@ Guiday will encrypt that msg using that public key and that msg only be decrypte
 
 
 
-📌Use case in Blockchain:
+#### Use case in Blockchain:
 how do you identify the peer participants? How do you authorize and authenticate the transactions? How do you detect forged or faulty transactions? We can do these things by using a Public-key cryptography algorithm
 
 🌐There are various techniques and Algorithms of Public Key Cryptography for example, RSA(Rivest, Shamir, Adleman), Diffie-Helman, and ECC(  Elliptic Curve Cryptography ). blockchains need a more efficient and stronger algorithm. Elliptic Curve Cryptography, ECC family of algorithms is used in the Bitcoin as well as an Ethereum Blockchain.
 
-
+#### Elliptic Curve Cryptography
 
 🚀 continuing exploring the world of blockchain and its transformative potential!
 
