@@ -301,6 +301,7 @@ how do you identify the peer participants? How do you authorize and authenticate
 🌐There are various techniques and Algorithms of Public Key Cryptography for example, RSA(Rivest, Shamir, Adleman), Diffie-Helman, and ECC(  Elliptic Curve Cryptography ). blockchains need a more efficient and stronger algorithm. Elliptic Curve Cryptography, ECC family of algorithms is used in the Bitcoin as well as an Ethereum Blockchain.
 
 #### Elliptic Curve Cryptography
-
+Elliptic Curve Cryptography (ECC) is a modern public-key encryption technique famous for being smaller, faster, and more efficient than incumbents. Bitcoin, for example, uses ECC as its asymmetric cryptosystem because it is so lightweight. The mathematical entity that makes all of this possible is the elliptic curve, so read on to learn how these curves enable some of the most advanced cryptography in the world.
+common use of ECC is to encrypt data so that only authorized parties can decrypt it. This has several obvious use cases, but is most commonly used to encrypt Internet traffic.
 🚀 continuing exploring the world of blockchain and its transformative potential!
 
