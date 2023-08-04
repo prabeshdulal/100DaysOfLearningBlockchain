@@ -303,5 +303,9 @@ how do you identify the peer participants? How do you authorize and authenticate
 #### Elliptic Curve Cryptography
 Elliptic Curve Cryptography (ECC) is a modern public-key encryption technique famous for being smaller, faster, and more efficient than incumbents. Bitcoin, for example, uses ECC as its asymmetric cryptosystem because it is so lightweight. The mathematical entity that makes all of this possible is the elliptic curve, so read on to learn how these curves enable some of the most advanced cryptography in the world.
 common use of ECC is to encrypt data so that only authorized parties can decrypt it. This has several obvious use cases, but is most commonly used to encrypt Internet traffic.
+
+#### WHAT MAKES ELLIPTIC CURVE CRYPTOGRAPHY DIFFERENT?
+You would use ECC for the same reasons as RSA. ECC and RSA both generate a public and private key and allow two parties to communicate securely. One advantage to ECC however, is that a 256-bit key in ECC offers about the same security as a 3072-bit key using RSA. ECC allows resource-constrained systems like smartphones, embedded computers, and cryptocurrency networks to use ~10% of the storage space and bandwidth required by RSA.
+
 🚀 continuing exploring the world of blockchain and its transformative potential!
 
