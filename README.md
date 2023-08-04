@@ -272,6 +272,34 @@ For decentralization and immutability, all miners have to execute the same smart
 https://www.geeksforgeeks.org/ethereum-block-structure/
 https://iq.opengenus.org/operations-on-ethereum-blockchain/
 
+# day 8
+### 🔗Public Key Cryptography: Techniques and Algorithms🔗 
+We create two keys, a public key, and a private key. The public key is given freely, and any party can encrypt data by using it. However, the private key is kept secret and only those who hold it will have the ability to decrypt data.
+
+#### example:
+Suppose, Guiday wants to send a private msg to me, and msg is so much confidential that no one should alter that msg in the middle. In that case, best thing we can do is encrypt the msg 
+
+The traditional method of doing that is using a symmetric method, in this method, we both set on the agreement that we have one key that is used for encryption and decryption of that msg. and that key should only be known to us.
+
+[Image]
+
+But the problem here is how can we share that key privately with each other. The only possible way is to physically share the key but it is not possible if Guiday is in the USA and I am in Nepal.
+
+solution to this problem is Using Public key Cryptography
+
+Here I will create two keys, and I will keep one key to myself privately I will call it a private key and send another key to Guiday I will call it a public key.
+
+Guiday will encrypt that msg using that public key and that msg only be decrypted using the private key which I have.
+
+[ note: public key and private key is connected to each other in such a way that the msg encrypted from one key is only be decrypted with other key but there is no way that we can find one key using another ]
+
+
+
+📌Use case in Blockchain:
+how do you identify the peer participants? How do you authorize and authenticate the transactions? How do you detect forged or faulty transactions? We can do these things by using a Public-key cryptography algorithm
+
+🌐There are various techniques and Algorithms of Public Key Cryptography for example, RSA(Rivest, Shamir, Adleman), Diffie-Helman, and ECC(  Elliptic Curve Cryptography ). blockchains need a more efficient and stronger algorithm. Elliptic Curve Cryptography, ECC family of algorithms is used in the Bitcoin as well as an Ethereum Blockchain.
+
 
 
 🚀 continuing exploring the world of blockchain and its transformative potential!
