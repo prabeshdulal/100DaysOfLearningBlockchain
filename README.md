@@ -307,5 +307,15 @@ common use of ECC is to encrypt data so that only authorized parties can decrypt
 #### WHAT MAKES ELLIPTIC CURVE CRYPTOGRAPHY DIFFERENT?
 You would use ECC for the same reasons as RSA. ECC and RSA both generate a public and private key and allow two parties to communicate securely. One advantage to ECC however, is that a 256-bit key in ECC offers about the same security as a 3072-bit key using RSA. ECC allows resource-constrained systems like smartphones, embedded computers, and cryptocurrency networks to use ~10% of the storage space and bandwidth required by RSA.
 
+#day 9
+### 🔗Hashing, Transaction Integrity, and Securing Blockchain 🔗
+🧠Hashing refers to the process of generating a fixed-size output from an input of variable size using the mathematical formulas. The process of verifying and adding the transaction in the block of the blockchain is Transaction Integrity.  Integrity of the block is managed by assuring that the block header contents are not tampered with, the transactions are not tempered with, state transitions are efficiently computed, hashed, and verified
+
+📌 A typical block has about 2,000 transactions in Bitcoin and about 100 transactions in Ethereum.
+
+🌐  combination of hashing and encryption are used for securing the various elements of the blockchain. Private public key pair and hashing are important foundational concepts in decentralized networks that operate beyond trust boundaries.
+
+🔑 Key takeaways from today's learning how hashing and encryption make the entire blockchain secure.
+
 🚀 continuing exploring the world of blockchain and its transformative potential!
 
