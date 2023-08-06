@@ -317,5 +317,29 @@ You would use ECC for the same reasons as RSA. ECC and RSA both generate a publi
 
 🔑 Key takeaways from today's learning how hashing and encryption make the entire blockchain secure.
 
+# Day 10
+### Consensus protocol
+Every block in the network of the blockchain needs to be checked and verified before adding to the blockchain network. So to add the block in the network miner should follow the mechanism called Consensus protocol. The consensus protocol is the mechanism to add a new block into the network of the Blockchain by using hashing. Proof of work consensus protocol is used in Bitcoin, also in Ethereum in the past.
+
+### Steps to add the block in the network
+First, compute the hash of the block header elements that is a fixed value, and a nonce that is a variable. If hash value is less than 2 par 128 for Bitcoin, and less than a function of difficulty for Ethereum, the puzzle has been solved. If it has not been solved, repeat the process after changing the nonce value. If the puzzle has been solved, broadcast the winning block that will be verified by other miners. Non-winning miner nodes add the new block to the local copy of the chain, and move on to working on the next block. The winner gets an incentive for creating the block.
+[photo]
+
+### Proof of work:
+A consensus algorithm, like Bitcoin's proof of work (the one we hear about most often), does two things: it ensures that the next block in a blockchain is the one and only version of the truth, and it keeps powerful adversaries from derailing the system and successfully forking the chain.
+
+In proof of work, miners compete to add the next block (a set of transactions) in the chain by racing to solve an extremely difficult cryptographic puzzle. The first to solve the puzzle wins the lottery. As a reward for his or her efforts, the miner receives 12.5 newly minted bitcoins – and a small transaction fee.
+
+Yet, although a masterpiece in its own right, bitcoin's proof of work isn't quite perfect.
+Common criticisms include that it requires enormous amounts of computational energy, that it does not scale well (transaction confirmation takes about 10-60 minutes), and that the majority of mining is centralized in areas of the world where electricity is cheap.
+
+While not a comprehensive list, the following are a few of the alternative approaches being kicked around out there.
+
+- proof of stake
+- Proof of activity
+- proof of burn
+- Proof of capacity
+- proof of history
+
 🚀 continuing exploring the world of blockchain and its transformative potential!
 
