@@ -323,7 +323,9 @@ Every block in the network of the blockchain needs to be checked and verified be
 
 ### Steps to add the block in the network
 First, compute the hash of the block header elements that is a fixed value, and a nonce that is a variable. If hash value is less than 2 par 128 for Bitcoin, and less than a function of difficulty for Ethereum, the puzzle has been solved. If it has not been solved, repeat the process after changing the nonce value. If the puzzle has been solved, broadcast the winning block that will be verified by other miners. Non-winning miner nodes add the new block to the local copy of the chain, and move on to working on the next block. The winner gets an incentive for creating the block.
-[photo]
+
+![Screenshot 2023-08-06 173709](https://github.com/prabeshdulal/100DaysOfLearningBlockchain/assets/138851338/69dc0aea-a4f0-4eaa-889e-af5cb727f7f4)
+![Screenshot 2023-08-06 173755](https://github.com/prabeshdulal/100DaysOfLearningBlockchain/assets/138851338/c7c1e35f-961b-4c9e-9f08-7e111230b1f4)
 
 ### Proof of work:
 A consensus algorithm, like Bitcoin's proof of work (the one we hear about most often), does two things: it ensures that the next block in a blockchain is the one and only version of the truth, and it keeps powerful adversaries from derailing the system and successfully forking the chain.
