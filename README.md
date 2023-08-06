@@ -332,6 +332,8 @@ A consensus algorithm, like Bitcoin's proof of work (the one we hear about most 
 
 In proof of work, miners compete to add the next block (a set of transactions) in the chain by racing to solve an extremely difficult cryptographic puzzle. The first to solve the puzzle wins the lottery. As a reward for his or her efforts, the miner receives 12.5 newly minted bitcoins – and a small transaction fee.
 
+![proof of work](https://www.google.com/url?sa=i&url=https%3A%2F%2Flevelup.gitconnected.com%2Fbitcoin-proof-of-work-the-only-article-you-will-ever-have-to-read-4a1fcd76a294&psig=AOvVaw1gD1gLXM_XeSMj45A5eG3u&ust=1691414523391000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKDs56CQyIADFQAAAAAdAAAAABAE)s
+
 Yet, although a masterpiece in its own right, bitcoin's proof of work isn't quite perfect.
 Common criticisms include that it requires enormous amounts of computational energy, that it does not scale well (transaction confirmation takes about 10-60 minutes), and that the majority of mining is centralized in areas of the world where electricity is cheap.
 
