@@ -355,3 +355,6 @@ Robustness is the ability to satisfactorily manage exceptional situations
 
 🚀 continuing exploring the world of blockchain and its transformative potential!
 
+# Day 12 
+today I write my first program in solidity in remix IDE. it's a simple hello world print program run on a virtual machine. I learn how to deploy the smart contract 
+![Screenshot 2023-08-08 193255](https://github.com/prabeshdulal/100DaysOfLearningBlockchain/assets/138851338/be2d5f12-74ce-40c6-910b-b10da6c743ee)
