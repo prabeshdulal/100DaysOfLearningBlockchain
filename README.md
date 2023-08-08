@@ -345,5 +345,13 @@ While not a comprehensive list, the following are a few of the alternative appro
 - Proof of capacity
 - proof of history
 
+ # 🚀Day 11 #100daysoflearning Blockchain
+### 🔗Robustnes🔗
+Robustness is the ability to satisfactorily manage exceptional situations
+
+🧠what if more than one miner solves the consensus puzzle where it is close in time to each other? What if more than one transaction references as input the same digital asset? This situation is called double-spending. Handling such exceptions satisfactorily is critical for ensuring the security of the blockchain.
+
+🗝️ Key takeaway from today's lesson expectations and challenges that may occur in blockchain network. handling such exceptions in different ways.
+
 🚀 continuing exploring the world of blockchain and its transformative potential!
 
