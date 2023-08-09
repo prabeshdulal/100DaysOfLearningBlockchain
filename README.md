@@ -386,3 +386,41 @@ contract DataType {
 }
 
 ```
+
+uint256 is the datatype that stores the positive value in the range upto 2 power 256 - 1;
+
+bool stores only two values either true or false;
+
+string store character;
+
+address is the special datatype for the solidity programming language that has the keyword payable, it stores the adress of the Ethereum block for the transaction 
+
+likewise, an array of every datatype can be defined.
+
+
+#### Mapping
+  ```
+contract maping{
+    mapping (uint => string) public mymap;
+
+    function addvalue(uint key, string memory value) public{
+        mymap[key]=value;
+    }
+
+    function getvalue(uint key) public view returns (string memory){
+        return mymap[key];
+    }
+
+    function deletevalue (uint key) public{
+        delete mymap[key];
+    }
+}
+```
+mapping is the special datatype available in solidity using this we can map one datatype with another datatype. in this example i have map the uint datattpe with string data type
+then we have the function addvalue to add the uint as key and string as value and we map key with value
+
+
+for example, 1.ram, 2.shyam, 3.hari
+
+
+
