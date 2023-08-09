@@ -416,11 +416,17 @@ contract maping{
     }
 }
 ```
-mapping is the special datatype available in solidity using this we can map one datatype with another datatype. in this example i have map the uint datattpe with string data type
-then we have the function addvalue to add the uint as key and string as value and we map key with value
+mapping is the special datatype available in solidity using this we can map one datatype with another datatype. In this example I have mapped the uint datatype with string data type
+then we have the function addvalue to add the uint as key and string as value and we map the key with the value
 
 
 for example, 1.ram, 2.shyam, 3.hari
+
+then we have the function getvalue which works to give the value when we enter the key of the value
+
+and last we have function delete value which work is to delete the value of the given key.
+
+
 
 
 
