@@ -465,3 +465,40 @@ contract loop{
    
 }
 ```
+Here is an example of struct and if_else statement
+```
+// SPDX-License-Identifier: MIT
+
+pragma solidity >=0.7.0 <0.9.0;
+
+contract structData{
+// struct in solidity
+    struct person{
+        uint8 roll;
+        string fullname;
+        string facalty;
+        bool haveidcard;
+    }
+    person myperson = person(1,"prabesh","bsc.csit",true);
+
+
+ //if else in solidity
+   function check() public view returns (bool) {      
+    uint256 num = 34;
+    if(num < 34){
+        //do something
+        return false;
+    }
+    else if(num == 34){
+        //do something
+        return true;
+    }
+    else{
+        //do this
+        return false;
+    }
+    }
+   
+
+}
+```
