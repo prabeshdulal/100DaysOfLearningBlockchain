@@ -429,4 +429,39 @@ and last we have function delete value which work is to delete the value of the 
 
 
 
+# 🚀Day14 #100daysoflearning Blockchain
+🧠 today I have learned some of the basics like loops, if_else_condition, and struct.
 
+Here is the example of the loop concept (for loop and while loop) and deployment of an array by asking the number of users
+```
+// SPDX-License-Identifier: MIT
+
+pragma solidity >=0.7.0 <0.9.0;
+
+contract loop{
+   
+   uint256[] public number;
+   constructor(uint256[] memory _num) {
+       number = _num;
+   }
+
+   function sumWithForLoop() public view returns(uint256){
+       uint256 sum = 0;
+       for(uint256 i=0; i < number.length; i++){
+           sum += number[i];
+       }
+       return sum;
+   }
+
+   function sumWithWhileLoop() public view returns (uint256){
+       uint256 sum = 0;
+       uint i = 0;
+       while(i < number.length){
+           sum += number[i];
+           i++;
+       }
+       return sum;
+   }
+   
+}
+```
